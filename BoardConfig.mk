@@ -42,3 +42,7 @@ TARGET_POWERHAL_HEADER_PATH := $(DEVICE_PATH)/power
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
+# Dexpreopt
+WITH_DEXPREOPT := true
+WITH_DEXPREOPT_PIC := true
